@@ -29,7 +29,7 @@ a {
     html {
         font-size: 90%;
     }
-    #nav-logo {
+    header #nav-logo {
         width: 120PX;
     }
 }
@@ -38,28 +38,28 @@ a {
     html {
         font-size: 65%;
     }
-    .header-back {
+    #home .header-back {
         background-position: center;
         background-size: fill;
     }
-    .article-img,
-    .logo {
+    #more-info .article-img,
+    #home .logo {
         width: 50%;
     }
     #map-section {
         flex-direction: column;
     }
-    #map {
+    #map-section #map {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 855px) {
-    #nav {
+    header nav {
         flex-wrap: wrap;
         justify-content: center;
     }
-    ul {
+    header ul {
         justify-content: center;
     }
 }
@@ -68,10 +68,10 @@ a {
     html {
         font-size: 35%;
     }
-    .article-img {
+    #more-info .article-img {
         width: 120PX;
     }
-    #nav-logo {
+    header #nav-logo {
         width: 80px;
     }
 }
