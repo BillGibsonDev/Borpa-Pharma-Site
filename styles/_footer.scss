@@ -1,6 +1,6 @@
 #footer {
     height: 80%;
-    background: #1c4b82;
+    background: $blue;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -16,6 +16,7 @@
     i {
         font-size: 2em;
         margin: 0 1em;
+        color: $orange;
     }
     .help-container {
         display: flex;
@@ -39,5 +40,6 @@
         font-size: 2em;
         margin: .5em;
         font-weight: 700;
+        color: $orange;
     }
 }

@@ -43,13 +43,13 @@
         margin: 1rem;
         padding: .5em;
         color: white;
-        background: #dd6b4d;
+        background: $orange;
         border-radius: 8px;
         font-weight: 700;
         border: 2px black solid;
     }
     #learn-btn:hover {
-        color: #1c4b82;
+        color: $blue;
         background: white;
         border: 2px solid black;
     }
