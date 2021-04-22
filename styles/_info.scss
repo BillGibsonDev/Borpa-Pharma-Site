@@ -21,6 +21,7 @@
         font-size: 3em;
         color: aliceblue;
         text-decoration: underline $orange;
+        text-underline-position: under;
     }
     p {
         font-size: 2.5em;
@@ -33,6 +34,8 @@
     }
     a:hover {
         color: white;
+        text-decoration: underline $orange;
+        text-underline-position: under;
     }
     .article-img {
         width: 540px;

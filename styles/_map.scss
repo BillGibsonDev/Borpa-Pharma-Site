@@ -15,7 +15,8 @@
     }
     h4 {
         color: $blue;
-        text-decoration: underline solid;
+        text-decoration: underline;
+        text-underline-position: under;
         font-size: 3em;
         font-weight: 700;
     }

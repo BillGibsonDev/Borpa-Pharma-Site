@@ -47,10 +47,12 @@
         border-radius: 8px;
         font-weight: 700;
         border: 2px black solid;
-    }
-    #learn-btn:hover {
-        color: $blue;
-        background: white;
-        border: 2px solid black;
+        &:hover {
+            color: $blue;
+            background: white;
+            border: 2px solid black;
+            text-decoration: underline $orange;
+            text-underline-position: under;
+        }
     }
 }

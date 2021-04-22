@@ -12,9 +12,9 @@ header nav {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   position: fixed;
   background-color: #1c4b82;
   z-index: 2;
@@ -32,14 +32,13 @@ header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 1em;
-  position: relative;
 }
 
 header ul li a {
@@ -55,6 +54,9 @@ header ul li a {
 
 header ul li a:hover {
   color: #dd6b4d;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  text-underline-position: under;
 }
 
 #home {
@@ -123,6 +125,9 @@ header ul li a:hover {
   color: #1c4b82;
   background: white;
   border: 2px solid black;
+  -webkit-text-decoration: underline #dd6b4d;
+          text-decoration: underline #dd6b4d;
+  text-underline-position: under;
 }
 
 #more-info {
@@ -159,6 +164,7 @@ header ul li a:hover {
   color: aliceblue;
   -webkit-text-decoration: underline #dd6b4d;
           text-decoration: underline #dd6b4d;
+  text-underline-position: under;
 }
 
 #more-info p {
@@ -174,6 +180,9 @@ header ul li a:hover {
 
 #more-info a:hover {
   color: white;
+  -webkit-text-decoration: underline #dd6b4d;
+          text-decoration: underline #dd6b4d;
+  text-underline-position: under;
 }
 
 #more-info .article-img {
@@ -225,8 +234,8 @@ header ul li a:hover {
 
 #map-section h4 {
   color: #1c4b82;
-  -webkit-text-decoration: underline solid;
-          text-decoration: underline solid;
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 3em;
   font-weight: 700;
 }
@@ -277,7 +286,7 @@ header ul li a:hover {
 }
 
 #footer .icon-wrapper {
-  margin: auto;
+  margin: 2em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,13 +301,17 @@ header ul li a:hover {
   color: #dd6b4d;
 }
 
+#footer i:hover {
+  color: white;
+}
+
 #footer .help-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 1em;
+  margin: 4em 2em;
   width: 100%;
 }
 
@@ -316,10 +329,12 @@ header ul li a:hover {
 
 #footer h4 {
   font-size: 2.5em;
+  font-weight: 700;
   color: white;
-  -webkit-text-decoration: underline white solid;
-          text-decoration: underline white solid;
+  line-height: 2px;
   margin-bottom: 1em;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 #footer a {
@@ -331,6 +346,9 @@ header ul li a:hover {
 
 #footer a:hover {
   color: white;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  text-underline-position: under;
 }
 
 * {
