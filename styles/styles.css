@@ -2,7 +2,7 @@ header {
   width: 100%;
   display: block;
   min-height: 10%;
-  background-color: #1c4b82;
+  background: #1c4b82;
   position: relative;
   top: 0%;
 }
@@ -211,12 +211,6 @@ header ul li a:hover {
   padding-bottom: 4em;
 }
 
-#map-section h4 {
-  color: #1c4b82;
-  text-decoration: underline;
-  font-weight: 700;
-}
-
 #map-section .address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,6 +221,14 @@ header ul li a:hover {
           flex-direction: column;
   text-align: center;
   margin: auto;
+}
+
+#map-section h4 {
+  color: #1c4b82;
+  -webkit-text-decoration: underline solid;
+          text-decoration: underline solid;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 #map-section h5 {
@@ -287,6 +289,7 @@ header ul li a:hover {
 #footer i {
   font-size: 2em;
   margin: 0 1em;
+  color: #dd6b4d;
 }
 
 #footer .help-container {
@@ -314,8 +317,8 @@ header ul li a:hover {
 #footer h4 {
   font-size: 2.5em;
   color: white;
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
+  -webkit-text-decoration: underline white solid;
+          text-decoration: underline white solid;
   margin-bottom: 1em;
 }
 
@@ -323,6 +326,11 @@ header ul li a:hover {
   font-size: 2em;
   margin: .5em;
   font-weight: 700;
+  color: #dd6b4d;
+}
+
+#footer a:hover {
+  color: white;
 }
 
 * {

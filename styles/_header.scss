@@ -1,8 +1,11 @@
+$orange:#dd6b4d;
+$darkBlue: #183661;
+$blue: #1c4b82;
 header {
     width: 100%;
     display: block;
     min-height: 10%;
-    background-color: $blue;
+    background: $blue;
     position: relative;
     top: 0%;
     nav {

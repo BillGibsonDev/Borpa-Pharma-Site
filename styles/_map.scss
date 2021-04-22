@@ -7,19 +7,19 @@
     margin: auto;
     width: 100%;
     padding-bottom: 4em;
-    .address h4 {
-        color: $blue;
-        text-decoration: underline solid;
-        font-weight: 700;
-        font-size: 3em;
-    }
     .address {
         display: flex;
         flex-direction: column;
         text-align: center;
         margin: auto;
     }
-    .address h5 {
+    h4 {
+        color: $blue;
+        text-decoration: underline solid;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    h5 {
         color: $orange;
         margin: .5em;
         font-size: 2em;
