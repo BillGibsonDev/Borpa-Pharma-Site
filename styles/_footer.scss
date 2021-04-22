@@ -1,0 +1,43 @@
+#footer {
+    height: 80%;
+    background: #1c4b82;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    .icon-wrapper {
+        margin: auto;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    i {
+        font-size: 2em;
+        margin: 0 1em;
+    }
+    .help-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 1em;
+        width: 100%;
+    }
+    .help-sub {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+    }
+    h4 {
+        font-size: 2.5em;
+        color: white;
+        text-decoration: underline white;
+        margin-bottom: 1em;
+    }
+    #footer a {
+        font-size: 2em;
+        margin: .5em;
+        font-weight: 700;
+    }
+}

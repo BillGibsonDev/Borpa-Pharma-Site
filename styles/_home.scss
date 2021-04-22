@@ -1,0 +1,56 @@
+#home {
+    background-color: aliceblue;
+    background-position: center;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    height: 90%;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+    position: relative;
+    .header-back {
+        background: url(/Pharma-Site/borpaHeader2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: left;
+        object-fit: cover;
+        background-blend-mode: darken;
+        height: 50vh;
+    }
+    .logo-container {
+        margin: 5em 2em 2em 2em;
+        display: flex;
+        position: relative;
+        top: 20%;
+    }
+    h2 {
+        font-family: 'Nanum Gothic', sans-serif;
+        color: #183661;
+        font-size: 4em;
+        text-shadow: 1px 1px white;
+        margin: 1em;
+        font-weight: 700;
+    }
+    .logo {
+        width: 540px;
+        margin: 3em;
+    }
+    #logo2 {
+        border-radius: 10%;
+    }
+    #learn-btn {
+        font-size: 4em;
+        margin: 1rem;
+        padding: .5em;
+        color: white;
+        background: #dd6b4d;
+        border-radius: 8px;
+        font-weight: 700;
+        border: 2px black solid;
+    }
+    #learn-btn:hover {
+        color: #1c4b82;
+        background: white;
+        border: 2px solid black;
+    }
+}
