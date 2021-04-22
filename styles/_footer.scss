@@ -1,3 +1,6 @@
+$orange:#dd6b4d;
+$darkBlue: #183661;
+$blue: #1c4b82;
 #footer {
     height: 80%;
     background: $blue;
@@ -41,5 +44,8 @@
         margin: .5em;
         font-weight: 700;
         color: $orange;
+        &:hover {
+            color: white;
+        }
     }
 }
