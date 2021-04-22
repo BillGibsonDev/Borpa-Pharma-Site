@@ -7,9 +7,9 @@
     margin: auto;
     width: 100%;
     padding-bottom: 4em;
-    h4 {
+    .address h4 {
         color: $blue;
-        text-decoration: underline;
+        text-decoration: underline solid;
         font-weight: 700;
         font-size: 3em;
     }
@@ -19,7 +19,7 @@
         text-align: center;
         margin: auto;
     }
-    h5 {
+    .address h5 {
         color: $orange;
         margin: .5em;
         font-size: 2em;
