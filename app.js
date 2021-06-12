@@ -1,9 +1,15 @@
 let map;
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 40.71455, lng: -74.00712 },
+    const myLatLng = { lat: 40.71455, lng: -74.00712 };
+    const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 14,
+        center: myLatLng,
         mapTypeId: 'hybrid'
+    });
+    new google.maps.Marker({
+        position: myLatLng,
+        map,
+        title: "Our Research Center",
     });
 }
